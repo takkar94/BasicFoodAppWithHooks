@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Fragment } from "react/cjs/react.production.min";
 import Cart from "./Components/Cart/Cart";
 import Header from "./Components/Layout/Header";
 import Meals from "./Components/Meals/Meals";
@@ -15,7 +14,6 @@ function App() {
   const hideCartHandler = () => {
     setCartIsShown(false);
   }
-
 
   return (
     <CartProvider>
